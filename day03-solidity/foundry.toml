@@ -1,0 +1,6 @@
+[profile.default]
+src = "src"
+out = "out"
+libs = ["../day02-solidity/lib"]
+
+remappings = ["@openzeppelin/=../day02-solidity/lib/openzeppelin-contracts/", "forge-std/=../day02-solidity/lib/forge-std/src/"]
